@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    text-decoration:none;
+}
+
+body{
+    width:100%;
+    background-color: #f0f2f5;
+}
+
+form{
+    background-color: #fff;
+    position: absolute;
+    width: 397px;
+    height: 351px;
+    margin-top: 135px;
+    margin-left: 848px ;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
+}
+
+form input{
+    background-color: #fff;
+    display: block;
+    
+    margin: 16px 16px 12px ;
+    
+    border: 1.5px solid #dddfe2;
+    width: 320px;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align:start;
+    color: #1d2129;
+    font-family: 'Segoe UI' ;
+    font-size: 17px;
+    line-height: 16px;
+    outline: none;
+
+}
+
+input:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+
+
+form input[type='password']{
+    margin-top: -20px;
+    margin-bottom: -10px;
+    position: relative;
+}
+.fa-eye{
+    position: absolute;
+    top: 28%;
+    right:8%;
+    cursor: pointer;
+    color:lightgray;
+    
+}
+
+.fa-eye-slash{
+    position: absolute;
+    top: 28%;
+    right:8%;
+    cursor: pointer;
+    color:lightgray;
+
+}
+
+
+
+button{
+    border: none;
+    display: block;
+    background-color: #1877f2;
+    color: white;
+    margin: 5px 16px;
+    width: 364px;
+    border-radius: 6px;
+    padding: 10px 0px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.forgot-password{
+    display: block;
+    width: 200px;
+    margin-left: 145px;
+    margin-top: -10px;
+    color: #1877f2;
+   
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-size: 14px ;
+    cursor: pointer;
+    
+
+}
+
+
+.line{
+   
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+ .btn2{
+    text-align: center;
+    width:190px;
+    font-size: 17px;
+    background-color: #42b72a;
+    margin-top: 5px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 6px;
+  
+}
+
+.down-link h3{
+    width: 360px;
+    height: 30px;
+    position: absolute;
+    margin-top:30px;
+    margin-left: 10px;
+    color:black;
+    font-family: 'Segoe UI';
+    padding: 130px 890px;
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+.down-link h3 a{
+    color:black;
+    font-weight: 600;
+    font-size:14px;
+}
+
+.container{
+    display: inline-block;
+    width: 350px;
+    margin-top: 205px;
+    margin-left: 255px;
+    font-family: 'segoe UI';
+}
+
+.container img{
+    width:250px;
+}
+
+h2{
+    font-size:28px;
+    font-weight: normal;
+    width: 500px;
+    margin-top: 15px;
+}
